@@ -1,0 +1,357 @@
+
+.App {
+  text-align: center;
+  background-color: var(--app-background-color);
+  width: 100vw !important;
+  min-width: 1600px ;
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  overflow:scroll;
+  white-space: nowrap;
+}
+ 
+#root{
+  height: 100vh !important; 
+}
+
+
+
+.content-container{
+  background-color: var(--app-background-color);
+  margin-top:1rem;
+padding-bottom: 4rem;
+}
+
+
+.card-header{
+  display: flex;
+  float: left;
+  font-weight: 500;
+  /* height: 3vh !important; */
+  height: 10% !important;
+  font-size: 0.8rem;
+  padding: 1 !important;
+  align-items: center;
+  min-height: 25px !important;
+}
+
+
+
+.card-header .right{
+  display: flex;
+  float: right !important;
+  margin-right : 0 !important;
+  margin-left: auto !important;
+  font-weight: 500;
+}
+
+
+.card-title-heading{
+  font-size: 1.25rem !important;
+  font-weight: 620;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 2px;
+
+
+}
+.app-text-primary{
+  color: var(--app-text-color-primary);
+}
+
+.app-text-secondary{
+  color: var(--app-text-color-secondary);
+}
+
+/* .container-side-padding{
+  padding-left: 50px !important;
+  padding-right: 20px !important;
+} */
+
+.cardgroup-row{
+  width: 100%;
+  padding-bottom: 1dvh !important;
+  
+  
+}
+
+.cardgroup-card{
+  margin: 0 !important ;
+  height: 27dvh !important;
+  min-height: 300px !important;
+
+
+  width: auto !important;
+}
+
+.card{
+  background-color: var(--card-background-color) !important;
+}
+
+.cardgroup-card .card-body,.cardgroup-card2 .card-body,.cardgroup-card3 .card-body{
+  padding: 0.3rem !important;
+  height: 95% !important;
+  align-items: center;
+  justify-self: center;
+  cursor:pointer;
+}
+
+.content-seperator{
+  margin: 8px !important;
+}
+
+.cardgroup-card2{
+  height: 24dvh !important;
+  min-height: 180px !important;
+  width: 100% !important;
+}
+
+.cardgroup-card3{
+  height: 28dvh !important;
+  min-height: 200px !important;
+  width: 100% !important;
+}
+
+
+
+.d3-wrapper{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.d3-svg{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.d3-svg text{
+  fill: var(--d3-text-color-primary);
+}
+
+
+svg text{
+  fill: var(--d3-text-color-primary);
+}
+
+.svg-text-secondary{
+  fill: var(--d3-text-color-secondary);
+
+}
+.grid-line{
+  stroke: var(--d3-grid-line-color) !important;
+}
+
+.d3-chartline-hidden{
+  opacity: 0.3;
+}
+.d3-legend-bg{
+  fill: var(--d3-legend-bg-color) ;
+}
+
+.compliance-cardbody-div{
+  display: flex;
+  justify-content : center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  padding: 0.5rem;
+}
+
+.open-am-button-container{
+  margin-top: 20%   !important;
+}
+.open-am-button{
+  font-size: 11px !important;
+}
+
+
+.d3-tooltip {
+  position: absolute;
+  background-color: var(--d3-tooltip-background-color);
+  border: 1px solid var(--d3-tooltip-border-color);
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  
+}
+
+.im-gate-link{
+  cursor: pointer;
+}
+
+
+.legend-hover {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  max-width: 100px !important;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.legend-hover-title{
+  color:var(--app-text-color-secondary);
+}
+
+.legend-hover .legend-tooltip{
+  visibility: hidden;
+  min-width: 500px;
+  width: 16vw;
+  height: 150px;
+  margin-left: 70px;
+  
+  text-align: center;
+  border-radius: 6px;
+
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  border : 1px solid var(--im-legend-border-color);
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.legend-hover .legend-tooltip svg{
+  fill: var(--im-legend-background-color);
+
+}
+.legend-hover:hover{
+  background-color: var(--im-legend-hover-color);
+}
+.legend-hover:hover .legend-tooltip {
+  visibility: visible;
+
+}
+
+
+.total-alh-count-text{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--app-text-color-primary);
+}
+
+.irms-buttons{
+  padding: 0.1rem;
+  margin-right: 5px ;
+  font-size: 0.8rem;
+}
+
+.form-select,.form-control{
+  background-color: var(--filter-input-bg) !important;
+}
+
+.not-found-error text{
+  color: var(--app-text-color-primary);
+
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1200px) and (min-height: 1200px) and (min-width: 1920px){
+  .card-header{
+    font-size: 1rem !important;
+  }
+  
+  .App {
+    min-width: 1300px !important;
+    min-height: 1100px !important;
+
+  }
+  .cardgroup-card{
+    min-height: 200px !important;
+  }
+  
+  .cardgroup-card3{
+    max-height: 300px !important;
+  }
+  .cardgroup-card{
+    max-height: 300px !important;
+  }
+  .total-alh-count-text{
+    font-size: 1.6rem !important;
+  
+  }
+  .irms-buttons{
+    font-size: 1.6rem !important;
+  }
+
+  .legend-hover  {
+    width: 100px !important;
+    font-size: 1.4rem;
+    padding: 1vh;
+    margin-bottom: 5vh;
+  }
+
+  /* .legend-hover .legend-tooltip {
+    width: 23vw !important;
+    height: 200px !important;
+  } */
+
+}
+
+@media screen and (max-width: 1920px) and (min-height: 800px){
+  .card-header{
+    font-size: 1.1rem !important;
+  }
+  
+  .App {
+    min-width: 1300px !important;
+    min-height: 900px !important;
+    overflow: scroll !important;
+
+  }
+
+  .cardgroup-card{
+    min-height: 200px !important;
+  }
+  .cardgroup-card2{
+    min-height: 150px !important;
+  }
+
+}
+
+@media screen and (max-width: 1600px) and (max-height: 800px){
+  .card-header{
+    font-size: 0.9rem !important;
+    min-height: 20px !important;
+    height: 20px !important; 
+  }
+  
+  .App {
+    min-height: 400px !important;
+    min-width: 1000px !important;
+    
+  }
+
+  .cardgroup-card{
+    min-height: 140px !important;
+
+  }
+  .cardgroup-card2{
+    min-height: 120px !important;
+  }
+  
+  .card-title-heading{
+    font-size: 0.8rem !important;
+  }
+
+  .content-seperator{
+    margin: 4px !important;
+  }
+
+  .total-alh-count-text{
+    font-size: 0.8rem !important;
+  }
+
+  .irms-buttons{
+    font-size: 0.7rem !important;
+  }
+
+  .legend-hover  {
+    width: 100px !important;
+    font-size: 0.8rem;
+  }
+}

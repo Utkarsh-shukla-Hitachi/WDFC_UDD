@@ -1,0 +1,84 @@
+html{
+    --app-background-color: #eff4f7;
+    --app-text-color-primary: #000000;
+    --app-text-color-secondary: #000000;
+    --card-background-color: #ffffff;
+
+
+    --d3-tooltip-background-color: #ffffff;
+    --d3-tooltip-border-color: #000000;
+    --d3-text-color-primary: #000000;
+    --d3-text-color-secondary: #FFF;
+    --d3-grid-line-color: #e1e1e1;
+    --d3-legend-bg-color: #ffffff;
+
+
+    --im-legend-background-color: #ffffff;
+    --im-legend-hover-color: #f5f5f5;
+    --im-legend-border-color: #313131;
+
+    --navbar-background-color: #ffffff;
+    --navbar-border-color-top: #ff0000;
+
+    --navbar-active-color: #ff0000;
+    --navbar-active-border-color: #ff0000;
+
+    --navbar-brand-text-color: #000000;
+    --navbar-seperator-color: #e5e5e5;
+    --navbar-dropdown-color: #000000;
+
+    --filter-divider-color: #e1e1e1;
+    --filter-input-bg: #ffffff;
+
+    --loading-color-1: #eceff1;
+    --loading-color-2: #f6f7f8;
+
+    --footer-background-color: #ffffff;
+    --footer-text-color: #383838;
+    --footer-brand-text-color: #000000;
+    
+}
+
+
+
+[data-bs-theme="dark"] {
+    --app-background-color: #171718;
+    --app-text-color-primary: #ffffff;
+    --app-text-color-secondary: #e0e0e0;
+    --card-background-color: #232326 ;
+
+
+    --d3-tooltip-background-color: #2d2d30;
+    --d3-tooltip-border-color: #ffffff;
+    --d3-text-color-primary: #ffffff;
+    --d3-text-color-secondary: #ffffff;
+    --d3-grid-line-color: #313131;
+    --d3-legend-bg-color: #252526;
+
+    --im-legend-background-color: #d0d0d0;
+    --im-legend-hover-color: #2a2a2a;
+
+    --im-legend-border-color: #ffffff;
+
+    --navbar-background-color: #232323;
+    --navbar-border-color-top: #ff0000;
+
+    --navbar-active-color: #ff0000;
+    --navbar-active-border-color: #ff0000;
+
+    --navbar-brand-text-color: #ffffff;
+    --navbar-seperator-color: #515151;
+    --navbar-dropdown-color: #ffffff;
+
+    --filter-divider-color: #515151;
+    --filter-input-bg: #2d2d30;
+
+  
+    --loading-color-1: #2d2d30;
+    --loading-color-2: #3a3a3c;
+
+    --footer-background-color: #323232;
+    --footer-text-color: #c2c2c2;
+    --footer-brand-text-color: #ffffff;
+}
+

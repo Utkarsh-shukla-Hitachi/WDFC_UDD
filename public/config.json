@@ -1,0 +1,22 @@
+{
+  "IRMS_URL": "https://irmwc.dfccil.com/",
+  "IRMS_ALARM_URL": "https://irmwc.dfccil.com/irms/alarm/",
+  "IRMS_DATA_LOG_URL": "https://irmwc.dfccil.com/irms/dataLog/",
+  "IRMS_LAYOUT_URL": "https://irmwc.dfccil.com/irms/layout/",
+  "IRMS_UTILIZATION_URL": "https://irmwc.dfccil.com/irms/utilization",
+  "GATE_API_URL": "https://irmwc.dfccil.com:7081/edge/api/v2/door/status",
+  "GATE_STATUS_UPDATE_INTERVAL_SEC": 5,
+  "EAM_URL": "https://maxqa.manage.masqa.apps.masqa.ocpqa.dfccil.com/maximo/",
+  "WORKORDER_URL": "https://maxqa.manage.masqa.apps.masqa.ocpqa.dfccil.com/maximo/api/os/UDD_WO?oslc.select=dfc_isnoncompliant,woeq3,dfc_assetnameid,status,dfc_assetclass,actfinish,actstart,worktype,siteid,reportdate,targstartdate,dfc_srpriority&oslc.where=istask=0&lean=true",
+  "ASSET_URL": "https://maxqa.manage.masqa.apps.masqa.ocpqa.dfccil.com/maximo/api/os/UDD_ASSET?oslc.select=location,dfc_commissioningdate,itemnum,dfc_mttr,dfc_mtbf,dfc_frpcpy,dfc_assetnameid,dfc_assetclass&oslc.where=siteid=\"REJN\"&lean=true",
+  "INVENTORY_URL": "https://maxqa.manage.masqa.apps.masqa.ocpqa.dfccil.com/maximo/api/os/UDD_PO?oslc.select=receipts,poline&lean=true",
+  "INVBAL_URL": "https://maxqa.manage.masqa.apps.masqa.ocpqa.dfccil.com/maximo/api/os/UDD_INVBAL?oslc.select=location,inventory,curbal&lean=true",
+  "PO_URL": "https://maxqa.manage.masqa.apps.masqa.ocpqa.dfccil.com/maximo/api/os/UDD_PO?oslc.select=receipts,poline&lean=true",
+  "PR_URL": "https://maxqa.manage.masqa.apps.masqa.ocpqa.dfccil.com/maximo/api/os/UDD_PR?oslc.select=prline&lean=true",
+  "API_TIMEOUT_SEC": 300,
+  "MAX_API_KEY": "g3l1r7hi3nbm5hf75pio76kutgvoi8bhl7q0t0kd",
+  "MAX_WO_URL": "https://maxqa.manage.masqa.apps.masqa.ocpqa.dfccil.com/maximo",
+  "MAX_ASSET_URL": "https://maxqa.manage.masqa.apps.masqa.ocpqa.dfccil.com/maximo",
+  "MAX_INVENTORY_URL": "https://maxqa.manage.masqa.apps.masqa.ocpqa.dfccil.com/maximo",
+  "THEMING_ENABLED": false
+}

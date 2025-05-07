@@ -1,0 +1,20 @@
+.Toastify__toast {
+    font-size: 0.8rem;
+    width: 250px !important;
+    min-height: 10px !important;
+  }
+
+
+
+.Toastify__toast-icon , .Toastify__spinner{
+    height: 15px;
+    width: 15px;
+}
+.Toastify__toast-container{
+    display: grid;
+    justify-content: end;
+}
+
+.Toastify__toast-container--bottom-right{
+    bottom: 5vh !important;
+}
